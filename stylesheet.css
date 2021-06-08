@@ -19,7 +19,7 @@ a {
 }
 
 header {
-    height: 65px;
+    height: 80px;
     width: 100%;
     background-color: whitesmoke;
     position :fixed;
@@ -28,12 +28,14 @@ header {
   }
   
   .logo {
-    width: 124px;
-    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+
   }
   
   .header-left {
     float: left;
+    
   }
   
   .header-right {
@@ -61,6 +63,7 @@ header {
     padding: 21px 0;
     display:none;
   }
+  
 
 .tombol {
     display: inline-block;
@@ -93,6 +96,7 @@ header {
   padding:40px 0;
   background-color:#ffffff;
   color:#4b4c4d;
+  margin-top: 100px;
 }
 
 .footer-basic ul {
