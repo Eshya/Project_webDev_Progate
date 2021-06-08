@@ -14,55 +14,55 @@ a {
 }
 
 .Introduction {
-    margin: 15px 0;
+    margin-top: 100px;
+    margin-bottom: 20px;
     padding-bottom: 30px;
 }
 
 header {
     height: 80px;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: rgba(245,245,245, 0.75);
     position :fixed;
     top: 0;
     z-index: 10;
-  }
+}
   
-  .logo {
+.logo {
     width: 100px;
     height: 100px;
 
-  }
+}
   
-  .header-left {
+.header-left {
     float: left;
     
-  }
+}
   
-  .header-right {
+.header-right {
     float: right;
-    margin-right: -25px;
-  }
+}
   
-  .header-right a {
-    line-height: 65px;
+.header-right a {
+    line-height: 80px;
     padding: 0 25px;
     color: #25546F;
     display: block;
     float: left;
     transition: all 0.5s;
-  }
+}
   
-  .header-right a:hover {
+.header-right a:hover {
     background-color: whitesmoke;
-  }
+}
  
-  .menu-icon {
+.menu-icon {
     color: #25546F;
     float: right;
     font-size: 25px;
     padding: 21px 0;
     display:none;
-  }
+}
   
 
 .tombol {
@@ -151,4 +151,23 @@ header {
   font-size:13px;
   color:#aaa;
   margin-bottom:0;
+}
+
+.mapouter {
+  position:relative;
+  text-align:right;
+  width:600px;
+  height:400px;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none;
+  width:600px;
+  height:400px;
+}
+
+.gmap_iframe {
+  width:600px;
+  height:400px;
 }
