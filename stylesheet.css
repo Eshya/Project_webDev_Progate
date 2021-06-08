@@ -22,19 +22,19 @@ a {
     display: inline-block;
     background-color: blue;
     color: white;
-    opacity: 0.75;
-    padding: 15px 15px;
+    opacity: 0.6;
+    padding: 10px 15px;
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 10px;
 }
 
 .tombol:hover {
-    opacity: 0.85;
+    opacity: 1;
 }
 
 .tombol:active {
-    opacity: 1.0;
+    background-color: blueviolet;
 }
 
 .Introduction h1 {
