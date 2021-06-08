@@ -18,6 +18,50 @@ a {
     padding-bottom: 30px;
 }
 
+header {
+    height: 65px;
+    width: 100%;
+    background-color: whitesmoke;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: #25546F;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: whitesmoke;
+  }
+ 
+  .menu-icon {
+    color: #25546F;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:none;
+  }
+
 .tombol {
     display: inline-block;
     background-color: blue;
