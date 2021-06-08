@@ -10,7 +10,7 @@
     padding-bottom: 30px;
 }
 
-.selengkapnya {
+.tombol {
     display: inline-block;
     background-color: blue;
     color: white;
@@ -20,13 +20,11 @@
     margin-bottom: 15px;
 }
 
-.selengkapnya:hover {
-    transition: all 0.5s;
+.tombol:hover {
     opacity: 0.85;
-    cursor: pointer;
 }
 
-.selengkapnya:active {
+.tombol:active {
     opacity: 1.0;
 }
 
