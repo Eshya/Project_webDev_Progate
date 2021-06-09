@@ -13,14 +13,44 @@ a {
     color: #4d68f0;
 }
 
-.Introduction {
+.introduction {
     height: 300px;
     margin-top: 100px;
     margin-bottom: 20px;
-    padding-bottom: 30px;
-    background-image: url(mie_ayam.png);
-    background-size: cover;
+}
 
+.bagian-teks {
+  float: left;
+}
+
+.gambar {
+  display: inline-block;
+  float: right;
+  width: 15%;
+}
+
+.bagian-teks h1 {
+  line-height: 10px;
+  letter-spacing: 5px;
+}
+
+.tombol {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  opacity: 0.6;
+  padding: 10px 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.tombol:hover {
+  opacity: 1;
+}
+
+.tombol:active {
+  background-color: blueviolet;
 }
 
 header {
@@ -67,42 +97,16 @@ header {
     padding: 21px 0;
     display:none;
 }
-  
-
-.tombol {
-    display: inline-block;
-    background-color: blue;
-    color: white;
-    opacity: 0.6;
-    padding: 10px 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-}
-
-.tombol:hover {
-    opacity: 1;
-}
-
-.tombol:active {
-    background-color: blueviolet;
-}
-
-.Introduction h1 {
-    line-height: 10px;
-}
 
 .menu-wrapper{
-    margin-top: 200px;
-    padding-bottom: 80px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #f7f7f7;
+    background-color: #d4cccc;
     text-align: center;
+    margin: 20px 0 20px 0;
+    height: 600px;
 }
 .heading{
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     color: #5f5d60;
 }
 .heading h2 {
