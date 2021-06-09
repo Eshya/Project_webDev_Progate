@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     font-family: "Calibri";
 }
@@ -6,32 +9,23 @@ a {
     text-decoration: none;
 }
 
-.container {
+.bagian-teks {
     width: 1100 px;
-    padding: 0 15px;
-    margin: 0 auto;
+    
+    padding-top: 100px;
     color: #4d68f0;
 }
 
-.introduction {
-    height: 300px;
+.Introduction {
+   
+    height: 500px;
     margin-top: 100px;
     margin-bottom: 20px;
-}
-
-.bagian-teks {
-  float: left;
-}
-
-.gambar {
-  display: inline-block;
-  float: right;
-  width: 15%;
-}
-
-.bagian-teks h1 {
-  line-height: 10px;
-  letter-spacing: 5px;
+    padding-bottom: 30px;
+    background-image: url(mie_ayam.png);
+    
+    background-size: cover;
+    text-align: center;
 }
 
 .tombol {
@@ -67,6 +61,7 @@ header {
     height: 100px;
 
 }
+
   
 .header-left {
     float: left;
@@ -99,7 +94,12 @@ header {
 }
 
 .menu-wrapper{
-    background-color: #d4cccc;
+    height: 500px;
+    margin-top: 200px;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
     text-align: center;
     margin: 20px 0 20px 0;
     height: 600px;
@@ -116,11 +116,24 @@ header {
     float: left;
     width: 25%;
 }
-.menu-icon img{
-    max-width: 100%;
-    max-height: 100%;
+.menu-kami img{
     width: 200px;
     height: 200px;
+}
+.menu-icon{
+    position: relative;
+}
+.menu-icon p{
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: black;
+}
+.menu-icon img{
+   
+    
+    width: 500px;
+    height: 500px;
 }
 
 
