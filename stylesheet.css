@@ -103,6 +103,7 @@ header {
 }
 
 .menu-wrapper{
+    border-radius: 20px;
     position: relative;
     height: 500px;
     margin-top: 200px;
@@ -139,7 +140,7 @@ header {
 .menu-kami img{
     width: 200px;
     height: 200px;
-    margin-top: 10px;
+    padding: 10px 10px 0 10px;
     border-radius: 20px;
     background-color: rgba(138, 122, 122, 0.576);
 }
@@ -165,17 +166,27 @@ header {
     border-radius: 20px;
 }
 .mapouter{
-   
+    border-radius: 20px;
+    margin-bottom: 50px;
+    text-align: center;
     margin: 0 auto;
     width: 100%;
     height: 500px;
+    background-color: blue;
 }
+
+.heading-map h2{
+    padding-top: 20px;
+    color: white;
+}
+
 
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>> Footer >>>>>>>>>>>>>>>>>>>>>>> */
 
 .footer-basic {
-  padding:40px 0;
+ 
+  padding:100px 0 50px 0;
   background-color:#ffffff;
   color:#4b4c4d;
   margin-top: 100px;
