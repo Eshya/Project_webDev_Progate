@@ -103,12 +103,13 @@ header {
 }
 
 .menu-wrapper{
+    position: relative;
     height: 500px;
     margin-top: 200px;
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: #f7f7f7;
+    background-color: #bba8a8;
     text-align: center;
     margin: 20px 0 20px 0;
     height: 600px;
@@ -122,15 +123,31 @@ header {
     font-weight: normal;
 }
 .menu-kami{
+    position:relative;
+    border-radius: 20px;
+    background-color: #555c92;
+    box-shadow: 5px 5px #2d3150 ;
+    margin-right: 3%;
     float: left;
-    width: 25%;
+    width: 22%;
+}
+.menu-kami:hover{
+    top: 7px;
+    left: 7px;
+    box-shadow: none ;
 }
 .menu-kami img{
     width: 200px;
     height: 200px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: rgba(138, 122, 122, 0.576);
 }
 .menu-icon{
     position: relative;
+}
+.menu-kami p{
+    font-weight: bold;
 }
 .menu-icon p{
     position: absolute;
@@ -138,12 +155,7 @@ header {
     width: 100%;
     color: black;
 }
-.menu-icon img{
-   
-    
-    width: 500px;
-    height: 500px;
-}
+
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>> Map >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
@@ -158,6 +170,7 @@ header {
     width: 100%;
     height: 500px;
 }
+
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>> Footer >>>>>>>>>>>>>>>>>>>>>>> */
 
