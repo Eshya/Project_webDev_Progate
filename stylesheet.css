@@ -8,45 +8,7 @@ body {
 a {
     text-decoration: none;
 }
-
-.bagian-teks {
-    width: 1100 px;
-    
-    padding-top: 100px;
-    color: #4d68f0;
-}
-
-.Introduction {
-   
-    height: 500px;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    padding-bottom: 30px;
-    background-image: url(mie_ayam.png);
-    
-    background-size: cover;
-    text-align: center;
-}
-
-.tombol {
-  display: inline-block;
-  background-color: blue;
-  color: white;
-  opacity: 0.6;
-  padding: 10px 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border-radius: 10px;
-}
-
-.tombol:hover {
-  opacity: 1;
-}
-
-.tombol:active {
-  background-color: blueviolet;
-}
-
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> header >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 header {
     height: 80px;
     width: 100%;
@@ -55,14 +17,6 @@ header {
     top: 0;
     z-index: 10;
 }
-  
-.logo {
-    width: 100px;
-    height: 100px;
-
-}
-
-  
 .header-left {
     float: left;
     
@@ -84,6 +38,61 @@ header {
 .header-right a:hover {
     background-color: whitesmoke;
 }
+.logo {
+    width: 100px;
+    height: 100px;
+
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Introduction >>>>>>>>>>>>>>>>>>>*/
+.Introduction {
+   
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    background-image: url(mie_ayam.png);
+    
+    background-size: cover;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.bagian-teks {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 1100 px;
+    line-height: 10px;
+    padding-top: 100px;
+    color: #4d68f0;
+}
+
+
+.tombol {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  opacity: 0.6;
+  padding: 10px 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.tombol:hover {
+  opacity: 1;
+}
+
+.tombol:active {
+  background-color: blueviolet;
+}
+
+
+  
+
+
+  
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Menu Icon>>>>>>>>>>>>>>>>>>>>>>> */
  
 .menu-icon {
     color: #25546F;
@@ -136,6 +145,20 @@ header {
     height: 500px;
 }
 
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>> Map >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.gmap_canvas iframe{
+    width: 800px;
+    height: 600px;
+}
+.mapouter{
+   
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>> Footer >>>>>>>>>>>>>>>>>>>>>>> */
 
 .footer-basic {
   padding:40px 0;
@@ -185,16 +208,7 @@ header {
   color:inherit;
   opacity:0.75;
 }
-.gmap_canvas iframe{
-    width: 800px;
-    height: 600px;
-}
-.mapouter{
-   
-    margin: 0 auto;
-    width: 100%;
-    height: 500px;
-}
+
 
 .footer-basic .social > a:hover {
   opacity:0.9;
@@ -207,22 +221,3 @@ header {
   color:#aaa;
   margin-bottom:0;
 }
-
-/* .mapouter {
-  position:relative;
-  text-align:right;
-  width:600px;
-  height:400px;
-}
-
-.gmap_canvas {
-  overflow:hidden;
-  background:none;
-  width:600px;
-  height:400px;
-}
-
-.gmap_iframe {
-  width:600px;
-  height:400px;
-} */
