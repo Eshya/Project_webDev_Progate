@@ -9,6 +9,7 @@ a {
   text-decoration: none;
 }
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> header >>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
 header {
   height: 80px;
   width: 100%;
@@ -55,12 +56,22 @@ header {
   }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Introduction >>>>>>>>>>>>>>>>>>>*/
+@keyframes imageChange{
+    0%   {background-image: url(mie_ayam.png);}
+    25%  {background-image: url(mie_bakso.jpg); }
+    50%  {background-image: url(mie_kering.png); }
+    75%  {background-image: url(mie_polos.png );}
+    100% {background-image: url(mie.png); }
+  }
 .introduction {
  
 height: 400px;
 margin-top: 100px;
 margin-bottom: 20px;
 background-image: url(mie_ayam.png);
+animation-name: imageChange;
+animation-duration: 10s;
+animation-iteration-count: infinite;
 background-size: cover;
 text-align: center;
 border-radius: 10px;
@@ -69,7 +80,7 @@ border-radius: 10px;
 
 .bagian-teks {
 width: 100%;
-background-color: rgb(245,245,245);
+background-color: rgb(245,245,245,0.5);
 line-height: 10px;
 padding: 40px 20px;
 color: #ff5e00;
