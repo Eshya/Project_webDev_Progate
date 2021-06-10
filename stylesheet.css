@@ -208,12 +208,34 @@ clear: left;
 footer img {
   width:125px;
 }
-
-footer p {
-  color:#b3aeb5;
-  font-size:12px;
+.heading-footer{
+    margin-top: 100px;
+      
+    
+}
+.heading-footer p{
+    color:#b3aeb5;
+    font-size:12px;
+    font-weight: bolder;
+}
+.icon-footer{
+    line-height: 200px;
+    padding: 100px 100px;
+   
+    display: block;
+    
+    transition: all 0.5s;
+}
+.icon-footer li{
+    display: inline;
+}
+.icon-footer i{
+    width: 50px;
+    height: 50px;
 }
 
+
 footer {
-  padding-top:30px;
+  padding-top:100px;
+  text-align: center;
 }
