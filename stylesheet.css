@@ -23,10 +23,12 @@ header {
 .header-left {
   float: left;
   
+  padding-left: 50px;
 }
 
 .header-right {
   float: right;
+  padding-right: 50px;
 }
 
 .header-right a {
@@ -43,7 +45,7 @@ header {
 }
 .logo {
   width: 100px;
-  height: 100px;
+  height: 80px;
 
 }
 .menu-icon {
