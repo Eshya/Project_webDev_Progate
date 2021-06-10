@@ -45,6 +45,14 @@ header {
   height: 100px;
 
 }
+.menu-icon {
+    display:none;
+    
+    color: rgba(245,245,245, 0.75);
+    float: right;
+    font-size: 25px;
+    padding: 21px 0px;
+  }
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Introduction >>>>>>>>>>>>>>>>>>>*/
 .introduction {
