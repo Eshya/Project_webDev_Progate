@@ -10,9 +10,28 @@
 }
 
 @media(max-width: 670px) {
-    .Introduction{
+    .bagian-teks{
         text-align: left;
     }
+    
+    .bagian-teks h1{
+        font-size: 24px;
+    }
+
+    .bagian-teks h2{
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .bagian-teks p{
+        font-size: 20x;
+        line-height: 22px;
+    }
+
+    .tombol {
+        margin-top: 50px;
+    }
+
     .menu-kami{
         width: 100%;
         margin-bottom: 50px;
