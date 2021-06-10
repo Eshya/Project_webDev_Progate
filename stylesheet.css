@@ -67,9 +67,8 @@ header {
   }
 .introduction {
  
-height: 400px;
-margin-top: 100px;
-margin-bottom: 20px;
+height: 550px;
+margin-top: 80px;
 background-image: url(mie_ayam.png);
 animation-name: imageChange;
 animation-duration: 10s;
@@ -84,15 +83,24 @@ border-radius: 10px;
 width: 100%;
 background-color: rgb(245,245,245,0.5);
 line-height: 10px;
-padding: 40px 20px;
-color: #ff5e00;
+padding: 70px 20px;
+color: #25546F;
 opacity: 0.8;
 }
+ .bagian-teks h1 {
+ padding-bottom: 10px;
+ }
 
-
+ .bagian-teks h2 {
+  padding-bottom: 10px;
+  }
+  
+  .bagian-teks p {
+    padding-bottom: 10px;
+    }
 .tombol {
 display: inline-block;
-background-color: blue;
+background-color: #25546F;
 color: white;
 opacity: 0.6;
 padding: 15px 50px;
@@ -133,7 +141,7 @@ clear: left;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #bba8a8;
+  background-color: whitesmoke;
   text-align: center;
   margin: 20px 0 20px 0;
 }
@@ -148,8 +156,8 @@ clear: left;
 .menu-kami{
   position:relative;
   border-radius: 20px;
-  background-color: #555c92;
-  box-shadow: 5px 5px #2d3150 ;
+  background-color: white;
+  box-shadow: 5px 5px #25546F ;
   margin-right: 3%;
   float: left;
   width: 22%;
@@ -162,9 +170,8 @@ clear: left;
 .menu-kami img{
   width: 200px;
   height: 200px;
-  padding: 10px 10px 0 10px;
-  border-radius: 20px;
-  background-color: rgba(138, 122, 122, 0.576);
+  padding: 40px 10px 0 10px;
+  border-radius: 10px;
 }
 .menu-icon{
   position: relative;
@@ -206,12 +213,12 @@ clear: left;
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>> Footer >>>>>>>>>>>>>>>>>>>>>>> */
 footer img {
-  width:125px;
+  width:100px;
 }
+
 .heading-footer{
-    margin-top: 100px;
-      
-    
+
+  padding-top: 100px;
 }
 .heading-footer p{
     color:#b3aeb5;
@@ -219,23 +226,16 @@ footer img {
     font-weight: bolder;
 }
 .icon-footer{
-    line-height: 200px;
-    padding: 100px 100px;
+    padding: 10px 10px;
    
     display: block;
     
     transition: all 0.5s;
 }
-.icon-footer li{
-    display: inline;
-}
-.icon-footer i{
-    width: 50px;
-    height: 50px;
-}
 
 
 footer {
-  padding-top:100px;
+  padding-top:70px;
   text-align: center;
+  color: #25546F;
 }
